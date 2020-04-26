@@ -10,5 +10,10 @@ package br.edu.fvs;
  * @author pessoal
  */
 public class CalcularIMC {
-    
+   
+    public int calcularIMC(double altura, double peso){
+        altura = 10;
+        peso = 20;
+        return (int) ((altura * 2)/peso);
+    }
 }
