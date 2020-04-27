@@ -10,10 +10,12 @@ package br.edu.fvs;
  * @author pessoal
  */
 public class CalcularIMC {
-   
-    public int calcularIMC(double altura, double peso){
-        altura = 10;
-        peso = 20;
-        return (int) ((altura * 2)/peso);
+
+    public double converterFarenheitParaCelcius() {
+
+        double celcius = 38;
+
+        double resultado = (celcius * 1.8) + 32;
+        return resultado;
     }
 }
