@@ -10,5 +10,12 @@ package br.edu.fvs;
  * @author victo
  */
 public class CalcularIMC {
-    
+
+    public double converterFarenheitParaCelcius() {
+
+        double celcius = 38;
+
+        double resultado = (celcius * 1.8) + 32;
+        return resultado;
+    }
 }
